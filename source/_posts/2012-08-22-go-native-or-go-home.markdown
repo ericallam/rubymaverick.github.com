@@ -7,11 +7,11 @@ categories: iphone, ios, android, flash, tryios, codeschool
 published: true
 ---
 
-Flash, the once poster-child of the mobile cross-platform cabal, is finally [dead on android][flash].  A little over 2 years ago Steve Jobs' wrote down his [Thoughts on Flash][thoughts], a reasonable attempt to explain to the programming world why the iPhone and iPad did not ship with Flash.  And looking back, he was right: Flash wasn't ready.  It never become "ready", even 2 years later.  
+Flash, the once poster-child of the mobile cross-platform cabal, is finally [dead on android][flash].  A little over 2 years ago Steve Jobs wrote down his [Thoughts on Flash][thoughts], a reasonable attempt to explain to the programming world why the iPhone and iPad did not ship with Flash.  And looking back, he was right: Flash wasn't ready.  It never become "ready", even 2 years later.  
 
-Jobs' wrote down *six* reasons why iOS didn't have Flash, and much ink was spilled by tech writers at the time over the first five.  Whether or not Flash interfaces worked with touch screens, the use of Flash for video, whether Flash drained battery, security, performance, the "openness" of Flash, etc.
+Jobs wrote down *six* reasons why iOS didn't have Flash, and much ink was spilled by tech writers at the time over the first five.  Whether or not Flash interfaces worked with touch screens, the use of Flash for video, whether Flash drained battery, security, performance, the "openness" of Flash, etc.
 
-But the sixth reason, by Jobs' own admission, is the most important one.  Apple didn't want developers on their platform to use Flash to build apps.  Here, in his own words:
+But the sixth reason, by Jobs's own admission, is the most important one.  Apple didn't want developers on their platform to use Flash to build apps.  Here, in his own words:
 
 > We know from painful experience that letting a third party layer of software come between the platform and the developer ultimately results in sub-standard apps and hinders the enhancement and progress of the platform. If developers grow dependent on third party development libraries and tools, they can only take advantage of platform enhancements if and when the third party chooses to adopt the new features. We cannot be at the mercy of a third party deciding if and when they will make our enhancements available to our developers.
 >
