@@ -4,6 +4,7 @@ title: "Setting up KIF Integration Tests for iOS"
 date: 2012-10-21 12:03
 comments: true
 categories: [iOS, KIF, Try iOS, Testing, Xcode]
+published: true
 ---
 
 Square released a pretty neat Integration Testing library called [KIF](https://github.com/square/KIF) last year and we have been using it to test the challenges for our upcoming [Try iOS](http://kickstarter.codeschool.com) course on [Code School](http://www.codeschool.com/courses).  The instructions in the KIF [README](https://github.com/square/KIF/blob/master/README.md) on setting up an Xcode 4 project are missing a couple of crucial steps, and after much Googling and Stackoverflowing I finally figured out how to get it to work, so I figured I'd share the process we are using for setting up KIF projects.
