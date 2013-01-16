@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Steve Jobs | Rubymaverick]]></title>
+  <link href="http://rubymaverick.com/blog/categories/steve-jobs/atom.xml" rel="self"/>
+  <link href="http://rubymaverick.com/"/>
+  <updated>2013-01-16T10:29:57-05:00</updated>
+  <id>http://rubymaverick.com/</id>
+  <author>
+    <name><![CDATA[Eric Allam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Jobs on Learning to Code]]></title>
+    <link href="http://rubymaverick.com/blog/2012/07/10/steve-jobs-on-learning-to-code/"/>
+    <updated>2012-07-10T21:58:00-04:00</updated>
+    <id>http://rubymaverick.com/blog/2012/07/10/steve-jobs-on-learning-to-code</id>
+    <content type="html"><![CDATA[<p>In the recently released <a href="http://itunes.apple.com/us/movie/steve-jobs-the-lost-interview/id536749587">1995 "Lost Interview"</a> with Steve Jobs, Robert (X?) Cringely asks Steve what kind of things people were using his Apple II's for.  His answer:</p>
+
+<p><blockquote><p>Much more importantly, it had nothing to do with using them for anything practical, it had to do with using them to be a mirror of your thought process, to actually learn how to think.  I think the greatest value in learning how to, I think that everybody in this country should learn how to program a computer, should learn a computer language.  Because it teaches you how to think...I view computer science as a liberal art.</p><footer><strong>Steve Jobs</strong> <cite><a href='http://itunes.apple.com/us/movie/steve-jobs-the-lost-interview/id536749587'>The Lost Interview</a></cite></footer></blockquote></p>
+
+<p>We're not there yet Steve, but we're close.</p>
+]]></content>
+  </entry>
+  
+</feed>

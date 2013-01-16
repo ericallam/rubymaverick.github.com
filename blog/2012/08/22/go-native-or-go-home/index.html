@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Go Native or Go Home - Rubymaverick</title>
+  <meta name="author" content="Eric Allam">
+
+  
+  <meta name="description" content="Flash, the once poster-child of the mobile cross-platform cabal, is finally dead on android. A little over 2 years ago Steve Jobs wrote down his &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rubymaverick.com/blog/2012/08/22/go-native-or-go-home/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Rubymaverick" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Rubymaverick</a></h1>
+  
+    <h2>Ruby and Programming Fanfic</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://duckduckgo.com" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rubymaverick.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Go Native or Go Home</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-22T10:48:00-04:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Flash, the once poster-child of the mobile cross-platform cabal, is finally <a href="http://blogs.adobe.com/flashplayer/2012/06/flash-player-and-android-update.html">dead on android</a>.  A little over 2 years ago Steve Jobs wrote down his <a href="http://www.apple.com/hotnews/thoughts-on-flash/">Thoughts on Flash</a>, a reasonable attempt to explain to the programming world why the iPhone and iPad did not ship with Flash.  And looking back, he was right: Flash wasn&#8217;t ready.  It never become &#8220;ready&#8221;, even 2 years later.</p>
+
+<p>Jobs wrote down <em>six</em> reasons why iOS didn&#8217;t have Flash, and much ink was spilled by tech writers at the time over the first five.  Whether or not Flash interfaces worked with touch screens, the use of Flash for video, whether Flash drained battery, security, performance, the &#8220;openness&#8221; of Flash, etc.</p>
+
+<p>But the sixth reason, by Jobs&#8217;s own admission, is the most important one.  Apple didn&#8217;t want developers on their platform to use Flash to build apps.  Here, in his own words:</p>
+
+<blockquote><p>We know from painful experience that letting a third party layer of software come between the platform and the developer ultimately results in sub-standard apps and hinders the enhancement and progress of the platform. If developers grow dependent on third party development libraries and tools, they can only take advantage of platform enhancements if and when the third party chooses to adopt the new features. We cannot be at the mercy of a third party deciding if and when they will make our enhancements available to our developers.</p>
+
+<p>This becomes even worse if the third party is supplying a cross platform development tool. The third party may not adopt enhancements from one platform unless they are available on all of their supported platforms. Hence developers only have access to the lowest common denominator set of features. Again, we cannot accept an outcome where developers are blocked from using our innovations and enhancements because they are not available on our competitor’s platforms.</p></blockquote>
+
+<p>This still holds true today.  Whether you use <a href="http://phonegap.com/">PhoneGap</a>, <a href="http://www.appcelerator.com/">AppCelerator</a>, or even <a href="http://www.rubymotion.com/">RubyMotion</a>, you are relying on a third party to supply you with the developer tools for a platform they don&#8217;t control.  In RubyMotion&#8217;s case, you can take some comfort that they only support iOS and thus won&#8217;t fall into cross-platform least-common-denominator purgatory.  But you can still find yourself in the situation where RubyMotion, or whatever framework you use on top of RubyMotion, falls behind the APIs developed by Apple.</p>
+
+<p>But the tug of the iOS platform is <a href="http://www.inquisitr.com/252304/apple-announces-30-billion-app-downloads-5-billion-paid-to-developers/">strong</a>, and it&#8217;s tempting to take the PhoneGap or AppCelerator shortcut, and just write your App in HTML+CSS+Javascript.  Don&#8217;t.  Take some time <a href="http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course">learn how to write iOS applications using Objective-C</a>.</p>
+
+<p>It&#8217;s not as hard as you think.  Don&#8217;t let your overzealous pattern-matching reflex blind you to the fact that just because smartphones <em>are</em> computers, people will be <em>okay</em> with sub-standard, cross-platform web apps. They are slow and don&#8217;t take advantage of the richness of the phone&#8217;s capabilities and speed.  You <em>sit down</em> at your computer, so a few hundred milliseconds here and there are no big deal.  People expect more out of the computer that goes everywhere with them (even to bed).  It needs to be an extension of themselves.  A couple hundred milliseconds of lag is not acceptable on a smartphone.  Facebook found that out <a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-rebuilding-facebook-for-ios/10151036091753920">the hard way</a>:</p>
+
+<blockquote><p>So while utilizing web technology has allowed us to support more than 500 million people using Facebook on more than 7000 supported devices, we realized that when it comes to platforms like iOS, people expect a fast, reliable experience and our iOS app was falling short. Now that our mobile services had breadth, we wanted depth. So, we rewrote Facebook for iOS from the ground up (I really did open up Xcode and click &#8220;New Project&#8221;) with a focus on quality and leveraging the advances that have been made in iOS development.</p></blockquote>
+
+<p>This is why I want to create <a href="http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course">awesome iOS development learning resources</a> so there will be no excuse left not to create native applications for iOS.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Eric Allam</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-22T10:48:00-04:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/android-/'>android,</a>, <a class='category' href='/blog/categories/codeschool/'>codeschool</a>, <a class='category' href='/blog/categories/flash-/'>flash,</a>, <a class='category' href='/blog/categories/ios-/'>ios,</a>, <a class='category' href='/blog/categories/iphone-/'>iphone,</a>, <a class='category' href='/blog/categories/tryios-/'>tryios,</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rubymaverick.com/blog/2012/08/22/go-native-or-go-home/" data-via="eallam" data-counturl="http://rubymaverick.com/blog/2012/08/22/go-native-or-go-home/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/07/30/kickstarter-project-try-ios/" title="Previous Post: Kickstarter Project: Try iOS">&laquo; Kickstarter Project: Try iOS</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/10/21/setting-up-kif-integration-tests-for-ios/" title="Next Post: Setting up KIF Integration Tests for iOS">Setting up KIF Integration Tests for iOS &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/01/16/generate-random-strings/">Generate Random Strings in the Shell</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/21/setting-up-kif-integration-tests-for-ios/">Setting up KIF Integration Tests for iOS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/22/go-native-or-go-home/">Go Native or Go Home</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/30/kickstarter-project-try-ios/">Kickstarter Project: Try iOS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/10/steve-jobs-on-learning-to-code/">Steve Jobs on Learning to Code</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rubymaverick">@rubymaverick</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rubymaverick',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("eallam", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/eallam" class="twitter-follow-button" data-show-count="false">Follow @eallam</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Eric Allam -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

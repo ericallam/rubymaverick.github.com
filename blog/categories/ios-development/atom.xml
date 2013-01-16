@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iOS Development | Rubymaverick]]></title>
+  <link href="http://rubymaverick.com/blog/categories/ios-development/atom.xml" rel="self"/>
+  <link href="http://rubymaverick.com/"/>
+  <updated>2013-01-16T10:29:57-05:00</updated>
+  <id>http://rubymaverick.com/</id>
+  <author>
+    <name><![CDATA[Eric Allam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Kickstarter Project: Try iOS]]></title>
+    <link href="http://rubymaverick.com/blog/2012/07/30/kickstarter-project-try-ios/"/>
+    <updated>2012-07-30T09:21:00-04:00</updated>
+    <id>http://rubymaverick.com/blog/2012/07/30/kickstarter-project-try-ios</id>
+    <content type="html"><![CDATA[<p>I've wanted to do a <a href="http://kickstarter.com">Kickstarter</a> project ever since I backed my friend Doug's first attempt at funding the rest of <a href="http://www.kickstarter.com/projects/dougroos/the-sky-has-fallen-a-post-apocalyptic-love-story-i-0">his movie</a> (a deserving project if there was ever one).  Today, because I work with the <a href="http://envylabs.com/team">best team</a>, and because we are lucky enough to work on <a href="http://www.codeschool.com">something people love</a>, I was able to launch a <a href="http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course">Kickstarter project</a> to build a <a href="http://www.codeschool.com">Code School</a> course to help people learn iPhone Development.</p>
+
+<iframe width="480" height="360" src="http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course/widget/video.html" frameborder="0"> </iframe>
+
+]]></content>
+  </entry>
+  
+</feed>
