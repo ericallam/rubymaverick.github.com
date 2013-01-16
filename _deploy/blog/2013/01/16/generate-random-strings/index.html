@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Kickstarter - Rubymaverick</title>
+  <title>Generate Random Strings in the Shell - Rubymaverick</title>
   <meta name="author" content="Eric Allam">
 
   
-  <meta name="description" content="Category: Kickstarter">
+  <meta name="description" content="Ruby 1.9.3 has a handy standard library called SecureRandom that you can use to generate random base64 and hex encoded strings of varying length. 1
+2 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rubymaverick.comblog/categories/kickstarter/">
+  <link rel="canonical" href="http://rubymaverick.com/blog/2013/01/16/generate-random-strings/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -63,35 +64,106 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Kickstarter</h1>
+    
+      <h1 class="entry-title">Generate Random Strings in the Shell</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-16T10:19:00-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Ruby 1.9.3 has a handy standard library called <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/securerandom/rdoc/SecureRandom.html">SecureRandom</a> that you can use to generate random base64 and hex encoded strings of varying length.</p>
 
-  
-  <h2>2012</h2>
-
-<article>
-  
-<h1><a href="/blog/2012/07/30/kickstarter-project-try-ios/">Kickstarter Project: Try iOS</a></h1>
-<time datetime="2012-07-30T09:21:00-04:00" pubdate><span class='month'>Jul</span> <span class='day'>30</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/kickstarter/'>Kickstarter</a>, <a class='category' href='/blog/categories/ios-development/'>iOS Development</a></span>
-</footer>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">p</span> <span class="no">SecureRandom</span><span class="o">.</span><span class="n">base64</span> <span class="c1">#=&gt; &quot;BSosm7R3qpzxb+julERofA==&quot;</span>
+</span><span class='line'><span class="nb">p</span> <span class="no">SecureRandom</span><span class="o">.</span><span class="n">hex</span> <span class="c1">#=&gt; &quot;0748834731ab0c35efd44610161f0ee3&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-</article>
+<p>If you are already using Ruby, and you need to generate random strings, go ahead and use SecureRandom.  But what if you aren&#8217;t using Ruby? Well you don&#8217;t have to go searching for a similar library in your language, because SecureRandom is built on top of <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CDMQFjAA&amp;url=http%3A%2F%2Fwww.openssl.org%2F&amp;ei=58X2UNZ1i_r2BP63gbAP&amp;usg=AFQjCNGtJbR6MAQZ3JmaMST4e19Co9b6PA&amp;bvm=bv.41018144,d.eWU">OpenSSL</a>, and if you have Mac OS X or linux, chances are you already have access to the <code>openssl</code> command line tool.</p>
 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">openssl</span> <span class="nb">rand</span> <span class="o">-</span><span class="n">base64</span> <span class="mi">16</span>
+</span><span class='line'><span class="n">t1nkx6lFae7s7dyGDuzgiw</span><span class="o">==</span>
+</span><span class='line'><span class="err">$</span> <span class="n">openssl</span> <span class="nb">rand</span> <span class="o">-</span><span class="n">hex</span> <span class="mi">16</span>
+</span><span class='line'><span class="mi">809420</span><span class="n">e83e80ebae689e814b1861bf5c</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This way you can quickly generate secure random strings without worrying about running Ruby.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Eric Allam</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-16T10:19:00-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/randomness/'>Randomness</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rubymaverick.com/blog/2013/01/16/generate-random-strings/" data-via="eallam" data-counturl="http://rubymaverick.com/blog/2013/01/16/generate-random-strings/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/10/21/setting-up-kif-integration-tests-for-ios/" title="Previous Post: Setting up KIF Integration Tests for iOS">&laquo; Setting up KIF Integration Tests for iOS</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
