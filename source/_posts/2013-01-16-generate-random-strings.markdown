@@ -15,7 +15,7 @@ p SecureRandom.hex #=> "0748834731ab0c35efd44610161f0ee3"
 
 If you are already using Ruby, and you need to generate random strings, go ahead and use SecureRandom.  But what if you aren't using Ruby? Well you don't have to go searching for a similar library in your language, because SecureRandom is built on top of [OpenSSL](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDMQFjAA&url=http%3A%2F%2Fwww.openssl.org%2F&ei=58X2UNZ1i_r2BP63gbAP&usg=AFQjCNGtJbR6MAQZ3JmaMST4e19Co9b6PA&bvm=bv.41018144,d.eWU), and if you have Mac OS X or linux, chances are you already have access to the `openssl` command line tool. 
 
-```
+```sh
 $ openssl rand -base64 16
 t1nkx6lFae7s7dyGDuzgiw==
 $ openssl rand -hex 16
