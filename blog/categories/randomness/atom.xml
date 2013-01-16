@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Randomness | Rubymaverick]]></title>
   <link href="http://rubymaverick.com/blog/categories/randomness/atom.xml" rel="self"/>
   <link href="http://rubymaverick.com/"/>
-  <updated>2013-01-16T10:29:57-05:00</updated>
+  <updated>2013-01-16T10:52:19-05:00</updated>
   <id>http://rubymaverick.com/</id>
   <author>
     <name><![CDATA[Eric Allam]]></name>
@@ -27,7 +27,7 @@ p SecureRandom.hex #=&gt; "0748834731ab0c35efd44610161f0ee3"
 
 <p>If you are already using Ruby, and you need to generate random strings, go ahead and use SecureRandom.  But what if you aren't using Ruby? Well you don't have to go searching for a similar library in your language, because SecureRandom is built on top of <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CDMQFjAA&amp;url=http%3A%2F%2Fwww.openssl.org%2F&amp;ei=58X2UNZ1i_r2BP63gbAP&amp;usg=AFQjCNGtJbR6MAQZ3JmaMST4e19Co9b6PA&amp;bvm=bv.41018144,d.eWU">OpenSSL</a>, and if you have Mac OS X or linux, chances are you already have access to the <code>openssl</code> command line tool.</p>
 
-<p><code>
+<p><code>sh
 $ openssl rand -base64 16
 t1nkx6lFae7s7dyGDuzgiw==
 $ openssl rand -hex 16
