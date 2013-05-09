@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Kickstarter | Rubymaverick]]></title>
-  <link href="http://rubymaverick.com/blog/categories/kickstarter/atom.xml" rel="self"/>
+  <title><![CDATA[Category: code | Rubymaverick]]></title>
+  <link href="http://rubymaverick.com/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://rubymaverick.com/"/>
   <updated>2013-05-09T15:03:15-04:00</updated>
   <id>http://rubymaverick.com/</id>
@@ -33,18 +33,6 @@
 <p>The rise of the popularity and use of the App Store has resulted in an interested phenomena: tons of people are entering programming for the first time by trying to learn an incredibly hard language and framework.  We were reminded of this when we ran a private beta 4 weeks ago in our offices to help us with some feedback on the course and the content. We do private betas for all of our courses, and the beta for Try Objective-C had by far the most beginners of any beta we've had.</p>
 
 <p>And unfortunately at that point our content was failing the true beginner. So we started over. We rewrote the entire course. The course we are releasing today gives the true beginner a really good shot at actually learning this language. It's not perfect, and it's definitely not easy, but it's the most approachable course we could have written.  And even though someone with experience in programming will most definitely start down the path of learning Objective-C and iOS with this course, it was written with someone else in mind. It was written for my brother the T-shirt printer, for my fiance the scientist, for my friend who is a single mom, for my neighbor with all the crazy app ideas, for my dentist, for my friends, and for all the people who messaged me on Kickstarter, wanting desperately to learn a new skill, to make something meaningful, to feel like they too could become a programmer.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kickstarter Project: Try iOS]]></title>
-    <link href="http://rubymaverick.com/blog/2012/07/30/kickstarter-project-try-ios/"/>
-    <updated>2012-07-30T09:21:00-04:00</updated>
-    <id>http://rubymaverick.com/blog/2012/07/30/kickstarter-project-try-ios</id>
-    <content type="html"><![CDATA[<p>I've wanted to do a <a href="http://kickstarter.com">Kickstarter</a> project ever since I backed my friend Doug's first attempt at funding the rest of <a href="http://www.kickstarter.com/projects/dougroos/the-sky-has-fallen-a-post-apocalyptic-love-story-i-0">his movie</a> (a deserving project if there was ever one).  Today, because I work with the <a href="http://envylabs.com/team">best team</a>, and because we are lucky enough to work on <a href="http://www.codeschool.com">something people love</a>, I was able to launch a <a href="http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course">Kickstarter project</a> to build a <a href="http://www.codeschool.com">Code School</a> course to help people learn iPhone Development.</p>
-
-<iframe width="480" height="360" src="http://www.kickstarter.com/projects/eallam/try-ios-iphone-app-development-course/widget/video.html" frameborder="0"> </iframe>
-
 ]]></content>
   </entry>
   
